@@ -43,7 +43,7 @@ def keep_alive():
 # --- End Flask Keep Alive ---
 
 # --- Configuration ---
-TOKEN = '8202711875:AAFhgKiPXeo0V18i5b8QECWCYtR-XfBqBGk' # Replace with your actual token
+TOKEN = '8550349407:AAHcList13q4d7F9CdQObWtdbn2jw2ZR-b0' # Replace with your actual token
 OWNER_ID = 7735912988 # Replace with your Owner ID
 ADMIN_ID = 7735912988 # Replace with your Admin ID (can be same as Owner)
 YOUR_USERNAME = '@beotherjk' # Replace with your Telegram username (without the @)
@@ -2221,4 +2221,5 @@ if __name__ == '__main__':
         except Exception as e:
             logger.critical(f"💥 Unrecoverable polling error: {e}", exc_info=True)
             logger.info("Restarting polling in 30s due to critical error..."); time.sleep(30)
+
         finally: logger.warning("Polling attempt finished. Will restart if in loop."); time.sleep(1)

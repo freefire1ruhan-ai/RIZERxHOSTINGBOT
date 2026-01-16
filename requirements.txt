@@ -22,3 +22,5 @@ jwt
 JWT
 protobuf
 protobuf_decoder
+psutil
+Psutil

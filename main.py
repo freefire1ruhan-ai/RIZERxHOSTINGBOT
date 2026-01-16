@@ -558,7 +558,7 @@ def premium_check_required(func):
 # -------------------------
 # CONFIG (token inserted)
 # -------------------------
-TOKEN = "8550349407:AAHcList13q4d7F9CdQObWtdbn2jw2ZR-b0"
+TOKEN = "8550349407:AAGoY6HMChlGZy3cdmII2xPfqrdSGOjibEk"
 OWNER_ID = 7735912988
 ADMIN_USERNAME = "@beotherjk"
 DISPLAY_NAME = "RIZERxHOSTING"
